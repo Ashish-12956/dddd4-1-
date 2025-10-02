@@ -1,0 +1,16 @@
+{
+    "name": "fashion-clothing-ecommerce",
+    "version": "1.0.0",
+    "description": "Modern fashion clothing e-commerce website",
+    "scripts": {
+        "start": "cd backend && nodemon server.js",
+        "dev": "cd backend && nodemon server.js",
+        "install-all": "npm install && cd backend && npm install"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "neo4j-driver": "^5.28.1"
+    }
+}
